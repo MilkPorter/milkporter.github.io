@@ -1,111 +1,112 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<title>Navigation - MilkPorter</title>
-<meta name="keywords" content="MilkPorter, Navigation">
-<meta name="description" content="Navigation of MilkPorter">
-<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="format-detection" content="telephone=no" />
-<link rel="shortcut icon" href="img/favicon.ico">
-<link rel="stylesheet" href="css/buttons.css">
-<link rel="stylesheet" id="patternfly-adjusted-css" href="css/app.css" type="text/css" media="all">
-<style>
-    #main article { border-bottom: none; }
-	body {
-		font: 500 .875em PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans;
-        background-color: #07040e; overflow-x:hidden;
-	}
-	#canvas {
-        position: absolute;
-		z-index: 10;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		cursor: none;
-    }
-    .content {
-		position: absolute;
-		z-index: 11;
-		right: 0;
-		left: 0;
-		top: 0;
-		bottom: 0;
-	}
-	.splash {
-		position: relative;
-	}
-	img#qq {
-		width: 128px;
-		background-size: cover;
-		border-radius: 200px;
-		box-shadow: 0px 0px 40px rgba(63, 81, 181, 0.72);
-		border: 3px solid #00a0ff;
-		opacity: 1;
-		margin: 0 auto;
-		margin-top: 20px;
-		margin-bottom: 20px;
-		transition: all 1.0s;  
-	}
-	#qq:hover {
-		box-shadow: 0 0 10px #fff;
-		-webkit-box-shadow: 0 0 19px #fff;
-		transform:rotate(360deg);
-		-ms-transform:rotate(360deg); 	/* IE 9 */
-		-moz-transform:rotate(360deg); 	/* Firefox */
-		-webkit-transform:rotate(360deg); /* Safari 和 Chrome */
-		-o-transform:rotate(360deg); 	/* Opera */
-		filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-	}
-	.con {
-		width:690px; margin:0 auto
-	}
-	.con a{
-		display:block; float:left;
-		width:300px;
-		margin:20px 20px;
-		line-height: 53px;
-		font-size:22px;
-		font-family:微软雅黑;
-		letter-spacing: 3px;
-	}
-	.button {
-		height:56px;
-	}
-	@media screen and (max-width: 750px){
-	.con a{
-        float: none;
-	}
-	} 
-</style>
-</head>https://www.milkporter.com/ks
-
-<body class="home page page-id-194 page-template page-template-page-homepage page-template-page-homepage-php custom-background" ondragstart="window.event.returnValue=false" oncontextmenu="window.event.returnValue=false" onselectstart="event.returnValue=false">
-  <div class="jumbotron">
-    <div class="container">
-      <div class="splash">
-        <div class="content">
-          <img src="img/logo.png" alt="PatternFly logo" id="qq" class="wow fadeInDown animated"
-          style="visibility: visible; animation-name: fadeInDown;">
-          <h1 class="wow fadeIn animated" data-wow-delay="0ms" style="visibility: visible; animation-delay: 0ms; animation-name: fadeIn;">
-            <b>NAVIGATION</b>
-          </h1>        
-			<div class="con">					
-				<a href="https://www.milkporter.com/"  rel="nofollow"  target="_blank" class="button button-glow button-border button-rounded button-primary"><b>网站首页</a>
-				<a href="https://sales.milkporter.com/"  rel="nofollow"  target="_blank" class="button button-glow button-border button-rounded button-primary"><b>购物商城</a>
-				<a href="https://viper.milkporter.com/"  rel="nofollow"  target="_blank" class="button button-glow button-border button-rounded button-primary"><b>特价会员</a>
-				<a href="https://www.milkporter.com/ks"  rel="nofollow"  target="_blank" class="button button-glow button-border button-rounded button-primary"><b>放松一下</a>
-				<a href="https://t.me/milkporter"  rel="nofollow"  target="_blank" class="button button-glow button-border button-rounded button-primary"><b>飞机频道</a>   
-				<a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=dGHz5EkM8y1k4xL8y3cILZVN3i6Kj6Sy&authKey=vVItQADV6de3uWXrujtbHjlOwM7QWGsHpm8c21%2BK0npPmjZQLMg5kEMkjbhViHAQ&noverify=0&group_code=781663100"  rel="nofollow"  target="_blank" class="button button-glow button-border button-rounded button-primary"><b>加入Q群</a>				    
+    <title>Navigation - MilkPorter</title>
+	<meta name="keywords" content="MilkPorter, Navigation">
+	<meta name="description" content="Navigation of MilkPorter">	
+	<meta http-equiv="content-type" content="text/html;charset=utf-8"/>	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+	<link rel="shortcut icon" href="img/favicon.ico">
+    <script src="js/clipboard.min.js"></script>
+    <script>
+       function copyBtn() {
+        new ClipboardJS('.btn',{text:function(trigger) { return '有趣/省钱/涨姿势：https://www.milkporter.com/';} });
+        alert('复制成功');
+       }
+    </script>
+</head>
+<body>
+<div class="page-body">
+    <div class="page-center">
+        <div class="header">
+            <img alt="Navigation of MilkPorter" src="img/logo.png" style="width: 60px; height: 60px;">
+        </div>
+        <div class="panel-content">
+            <div class="panel-left">
+                <div class="title-info">
+                    <div class="title-t">
+						Ctrl+D 添加至收藏夹
+                    </div>
+                </div>
+                <div class="panel-box">
+                    <div class="row">
+                        <div class="text">
+                            <p class="p1">分享给好友</p>
+							<p class="p2">有趣 / 省钱 / 涨姿势</p>
+                        </div>
+                        <a onclick="copyBtn()" class="btn">
+                            复制链接
+                        </a>
+                    </div>
+                    <div class="top-line nomp"></div>
+                    <div class="row">
+                        <div class="text">
+                            <p class="p1">站点首页 🔞</p>
+                            <p class="p2">milkporter.com</p>
+                        </div>
+                        <a href="https://www.milkporter.com/" target="_blank" class="btn-down">
+                            点击进入
+                        </a>
+                    </div>
+                    <div class="top-line nomp"></div>
+                    <div class="row">
+                        <div class="text">
+                            <p class="p1">低价会员 🔥</p>
+                            <p class="p2">viper.milkporter.com</p>
+                        </div>
+                        <a href="https://viper.milkporter.com/" target="_blank" class="btn-down">
+                            点击进入
+                        </a>
+                    </div>
+                    <div class="top-line nomp"></div>
+                    <div class="row">
+                        <div class="text">
+                            <p class="p1">领券购物 🔥 </p>
+                            <p class="p2">sales.milkporter.com</p>
+                        </div>
+                        <a href="https://sales.milkporter.com" target="_blank" class="btn-down">
+                            点击进入
+                        </a>
+                    </div>
+					<div class="top-line nomp"></div>
+                    <div class="row">
+                        <div class="text">
+                            <p class="p1">放松一下</p>
+                            <p class="p2">小姐姐跳舞给你看~</p>
+                        </div>
+                        <a href="https://www.milkporter.com/ks/" target="_blank" class="btn-down">
+                            点击进入
+                        </a>
+                    </div>
+                    <div class="top-line nomp"></div>
+                    <div class="row">
+                        <div class="text">
+                            <p class="p1">加入QQ群</p>
+                            <p class="p2">781663100</p>
+                        </div>
+                        <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=dGHz5EkM8y1k4xL8y3cILZVN3i6Kj6Sy&authKey=vVItQADV6de3uWXrujtbHjlOwM7QWGsHpm8c21%2BK0npPmjZQLMg5kEMkjbhViHAQ&noverify=0&group_code=781663100" target="_blank" class="btn-down">
+                            点击加入
+                        </a>
+                    </div>
+                    <div class="top-line nomp"></div>
+                    <div class="row">
+                        <div class="text">
+                            <p class="p1">飞机频道 🔥 </p>
+                            <p class="p2">@milkporter</p>
+                        </div>
+                        <a href="https://t.me/milkporter" target="_blank" class="btn-down">
+                            点击加入
+                        </a>
+                    </div>
+				</div> 
+				<div class="foot">
+					©2023 MilkPorter All Rights Reserved.
+				</div>
 			</div>
 		</div>
-      </div>
-    </div>
-		<canvas id="canvas" width="100%" height="100%"></canvas>
-  </div>
+	</div>
+</div>
 </body>
-
-</html>    
+</html>
