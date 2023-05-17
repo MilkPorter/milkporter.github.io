@@ -11,7 +11,7 @@ body {
   justify-content: center;
   position: relative;
   z-index: 1;
-  background: #221815;
+  background-color: linear-gradient(179.98deg, #001958 0.01%, #4F5079 99.99%);
   background-size: cover;
 }
 
